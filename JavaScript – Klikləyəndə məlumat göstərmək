@@ -1,0 +1,13 @@
+const buttons = document.querySelectorAll('.show-info');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    const card = button.parentElement;
+    const courseName = card.querySelector('h3').textContent;
+    const price = card.getAttribute('data-price');
+    const info = card.querySelector('.info');
+
+    // Dinamik məlumat göstərmək
+    info.textContent = `${courseName} kursunun qiyməti: ${price}`;
+  });
+});

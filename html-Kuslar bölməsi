@@ -1,0 +1,18 @@
+<section id="courses">
+  <h2>Kurslar</h2>
+  <div class="course-card" data-price="50 AZN">
+    <h3>Proqramlaşdırma</h3>
+    <button class="show-info">Məlumat</button>
+    <p class="info"></p>
+  </div>
+  <div class="course-card" data-price="40 AZN">
+    <h3>Riyaziyyat</h3>
+    <button class="show-info">Məlumat</button>
+    <p class="info"></p>
+  </div>
+  <div class="course-card" data-price="45 AZN">
+    <h3>Elm</h3>
+    <button class="show-info">Məlumat</button>
+    <p class="info"></p>
+  </div>
+</section>

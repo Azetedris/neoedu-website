@@ -2,39 +2,59 @@
 <html lang="az">
 <head>
   <meta charset="UTF-8">
-  <title>NeoEdu – Online Təhsil Platforması</title>
-  <meta name="description" content="NeoEdu ilə proqramlaşdırma, riyaziyyat və elm kurslarını öyrən. Təhsil indi daha əyləncəli və interaktivdir.">
+
+  <title>Azetedris – Azərbaycan dilində onlayn təhsil platforması</title>
+
+  <meta name="description" content="Azetedris – Azərbaycan dilində proqramlaşdırma, riyaziyyat və elm dərsləri. Pulsuz və interaktiv onlayn təhsil platforması.">
+  <meta name="keywords" content="azetedris, onlayn dərslər, riyaziyyat dərsləri, proqramlaşdırma öyrən, təhsil azərbaycan">
+  <meta name="author" content="Azetedris">
+  <meta name="robots" content="index, follow">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav>
-  <h1>NeoEdu</h1>
+  <h1>Azetedris</h1>
   <a href="#courses">Kurslar</a>
 </nav>
 
 <section class="hero">
-  <h2>Öyrən. İnkişaf et. Gələcəyini qur.</h2>
+  <h2>Azərbaycan dilində müasir onlayn təhsil platforması</h2>
+  <p>
+    Riyaziyyat, proqramlaşdırma və elm dərslərini
+    sadə və başa düşülən şəkildə öyrən.
+  </p>
   <button id="startButton">Başla</button>
 </section>
 
 <section id="courses" style="display:none;">
-  <div class="course-card" data-price="50 AZN" data-desc="Əsas proqramlaşdırma kursu.">
+
+  <div class="course-card"
+       data-price="Pulsuz"
+       data-desc="Sıfırdan başlayaraq proqramlaşdırmanın əsaslarını öyrədən dərslər.">
     <h3>Proqramlaşdırma</h3>
     <button class="show-info">Məlumat</button>
     <p class="info"></p>
   </div>
-  <div class="course-card" data-price="40 AZN" data-desc="Riyaziyyatın əsasları.">
+
+  <div class="course-card"
+       data-price="Pulsuz"
+       data-desc="Məktəb və əsas səviyyə üçün riyaziyyat mövzularının izahı.">
     <h3>Riyaziyyat</h3>
     <button class="show-info">Məlumat</button>
     <p class="info"></p>
   </div>
-  <div class="course-card" data-price="45 AZN" data-desc="Elm dünyasına giriş.">
+
+  <div class="course-card"
+       data-price="Pulsuz"
+       data-desc="Fizika və ümumi elm mövzularına giriş dərsləri.">
     <h3>Elm</h3>
     <button class="show-info">Məlumat</button>
     <p class="info"></p>
   </div>
+
 </section>
 
 <p id="msg"></p>
